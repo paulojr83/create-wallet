@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target":"es6",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "pretty": true,
+    "noEmitOnError": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "newLine": "lf",
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports":true,
+    "skipLibCheck": true,
+    "lib":["esnext"
+           ,"es2015.core"
+           ,"es2015.collection"
+           ,"es2015.iterable"
+           ,"es2015.proxy"
+           ,"es2015.reflect"
+           ,"es2015.generator"
+           ,"es2015.symbol"
+           ,"es2015.symbol.wellknown"
+           ,"es2016"
+           ,"scripthost"
+           ,"es2017.object"]
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "typings"]
+}
